@@ -1,9 +1,10 @@
 # rke-deploy
 rke 安裝 cluster
 
-## Install kubectl and rke
+## Install kubectl 、 rke 、 nfs-common\
 ```sh
-sudo snap install kubectl --classic
+sudo snap install kubectl --classic  
+sudo apt install nfs-common
 ```
 
 ## reference
