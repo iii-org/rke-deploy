@@ -12,4 +12,5 @@ rke --version
 ```
 
 ## reference
-https://github.com/rancher/rke/releases
+* https://github.com/rancher/rke/releases
+* https://medium.com/@sarpkoksal/rke-kubernetes-installation-ha-or-noha-5f3b0e27b32f
