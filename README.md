@@ -5,6 +5,10 @@ rke 安裝 cluster
 ```sh
 sudo snap install kubectl --classic  
 sudo apt install nfs-common
+wget https://github.com/rancher/rke/releases/download/v1.1.15/rke_linux-amd64
+mv rke_linux-amd64 rke
+chmod +x rke
+rke --version
 ```
 
 ## reference
