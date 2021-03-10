@@ -1,6 +1,17 @@
 # rke-deploy
 rke 安裝 cluster
 
+## ssh key for all node
+```
+#enter root user
+sudo -i
+cd .ssh/
+ssh-keygen
+ssh-copy-id localadmin@10.20.0.68
+ssh-copy-id localadmin@10.20.0.73
+ssh-copy-id localadmin@10.20.0.74
+```
+
 ## Install kubectl 、 rke 、 nfs-common\
 ```sh
 sudo snap install kubectl --classic  
